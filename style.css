@@ -1,0 +1,97 @@
+body {
+    background-color: #fff;
+    width: 100%;
+}
+.container {
+    width: 50%;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 7%;
+    font-family: 'Varela Round', sans-serif, Helvetica;
+    font-size: 1.5em;
+}
+[class*="col-lg-12"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #3f86ff;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px 30px 100px 20px;
+    text-transform: uppercase;
+}
+[class*="col-lg-12"]>h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+[class*="col-lg-3"] {
+  line-height: 30px;
+  text-align: center;
+  color: #000;
+  text-transform: lowercase;
+}
+
+[class*="col-lg-7"] {
+  line-height: 30px;
+  text-align: center;
+  font-size: 0.9em;
+  border-radius: 20px 30px 100px 20px;
+  background-color: #3fffb8;
+  color: #000;
+
+}
+#pseudo {
+    font-size: 0.8em;
+    border-radius: 20px;
+}
+#chatbox {
+    height: 250px;
+    text-align: center;
+    font-size: 0.8em;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 20px 30px 100px 20px;
+    overflow:auto;
+}
+/*
+#pseudo #chatbox:nth-child(even) {
+  background-color: #ccc;
+}  
+*/ 
+#message {
+    width: 60%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size: 0.8em;
+}
+#send {
+    border-radius: 20px;
+    background-color: #e6ff3f;
+}
+.welcome2 {
+  line-height: 80px;
+}
+.roundchat {
+  background-color: #3f86ff;
+  padding: 30px;
+  border-radius: 70px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.error{
+  border:  2px solid red;
+}  /* Les bords des champs text destinés pour remplir le pseudo et le 
+message se mettent en rouge si au moins un des
+champs n'est pas rempli */
+
+[class*="col-lg-2"] {
+ text-align: justify;
+ text-transform: lowercase;
+}
+.fa-commenting-o:before {
+    color: #3f86bd; 
+}
